@@ -627,6 +627,39 @@ form .btn1 {
     display: none;
 }
 
+/* scroll section */
+
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ED7D31;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+#scroll-to-top:hover {
+    background: #CD5C08;
+}
+
+#scroll-to-top i {
+    margin-right: 5px;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
 
 
 
@@ -753,42 +786,9 @@ form .btn1 {
         left: 2%;
     }
 
-    #scroll-to-top i {
+    #scroll-to-top  {
         display: none;
     }
 
 }
 
-/* scroll section */
-
-#scroll-to-top {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #ED7D31;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 7px;
-    cursor: pointer;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: none;
-    transition: opacity 0.3s;
-}
-
-#scroll-to-top:hover {
-    background: #CD5C08;
-}
-
-#scroll-to-top i {
-    margin-right: 5px;
-}
-
-#msg {
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
-}
