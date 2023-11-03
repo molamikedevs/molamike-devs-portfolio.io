@@ -633,7 +633,7 @@ form .btn1 {
 
 /* media query section */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     /* header section */
 
     .container h1 {
@@ -750,7 +750,11 @@ form .btn1 {
     .hire {
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 2%;
+    }
+
+    #scroll-to-top i {
+        display: none;
     }
 
 }
